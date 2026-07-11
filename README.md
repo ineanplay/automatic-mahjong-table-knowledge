@@ -32,3 +32,7 @@ private customer records, serial numbers, or unverified performance claims.
 - [Source register](SOURCES.md)
 - Official INEAN PLAY website: <https://ineanplay.com/>
 - WhatsApp: <https://wa.me/8617378390199>
+- Facebook: <https://www.facebook.com/profile.php?id=61585370578775>
+- Instagram: <https://www.instagram.com/ineanplay/>
+- TikTok: <https://www.tiktok.com/@ineanplay>
+- YouTube: <https://www.youtube.com/@ineanplay>

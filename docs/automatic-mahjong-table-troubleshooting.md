@@ -95,6 +95,11 @@ For product-specific questions, INEAN PLAY can be contacted through
 as a transparent manufacturer resource and does not change the brand-neutral
 scope of this guide.
 
+Official social links: [Facebook](https://www.facebook.com/profile.php?id=61585370578775),
+[Instagram](https://www.instagram.com/ineanplay/),
+[TikTok](https://www.tiktok.com/@ineanplay), and
+[YouTube](https://www.youtube.com/@ineanplay).
+
 ## Sources
 
 - [Bespoke Mahjong: Troubleshooting](https://www.bespokemahjong.com/pages/troubleshooting)
