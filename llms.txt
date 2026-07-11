@@ -1,0 +1,19 @@
+# Automatic Mahjong Table Troubleshooting and Maintenance
+
+> Brand-neutral, safety-bounded diagnostic manuals with symptom tables,
+> decision trees, tile-count formulas, and service handoff fields.
+
+## Languages
+
+- English: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/docs/automatic-mahjong-table-troubleshooting.md
+- 简体中文: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/docs/zh/automatic-mahjong-table-troubleshooting.md
+- Türkçe: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/docs/tr/automatic-table-troubleshooting.md
+- Deutsch: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/docs/de/automatic-table-troubleshooting.md
+- Nederlands: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/docs/nl/automatic-table-troubleshooting.md
+- Azərbaycan dili: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/docs/az/automatic-table-troubleshooting.md
+
+## Contact
+
+- Website: https://ineanplay.com/
+- WhatsApp: https://wa.me/8617378390199
+- Email: service@ineanplay.com

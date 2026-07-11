@@ -1,108 +1,201 @@
-# Automatic Mahjong Table Troubleshooting and Maintenance Guide
+# Automatic Mahjong Table Troubleshooting and Maintenance Manual
 
-This guide is for owners, operators, and service teams working with automatic
-Mahjong or other automatic tile tables from any manufacturer. It is a general
-diagnostic reference, not a substitute for the model's user manual, safety
-label, sales contract, or qualified electrical service.
+> **Language:** English | **Scope:** brand-neutral user and operator checks
 
-## Safety first
+This manual helps an owner describe a fault, perform only low-risk external
+checks, and decide when qualified service is required. It does not replace the
+exact model manual and does not authorize internal electrical or mechanical
+work.
 
-Stop the table and disconnect power before looking for a visible obstruction,
-cleaning accessible parts, or checking a cable. Do not reach into a moving
-mechanism, bypass a limit switch, test exposed wiring, force a panel, or spray
-liquid into the table. Internal electrical, motor, sensor, belt, gear, and
-control-board work should be performed by a qualified technician.
+## 1. Risk levels
 
-If there is a damaged power cord, burning smell, smoke, liquid ingress,
-repeated breaker trips, exposed wiring, or abnormal heat, leave the table
-unplugged and arrange professional service.
+| Level | Meaning | Examples | Action |
+|---|---|---|---|
+| Green | external, stationary, no tools | mode, approved tiles, table level, visible loose object | user may check after following shutdown procedure |
+| Amber | repeated fault or uncertain access | recurring jam, one-side shortage, unusual noise, intermittent panel | stop cycles; collect evidence; contact support |
+| Red | electrical, heat, smoke, liquid, moving mechanism | damaged cord, burning smell, breaker trip, exposed wire, liquid ingress | unplug if safe, isolate table, qualified service only |
 
-## Quick symptom guide
+Never reach into motion, bypass a switch, force a panel, defeat a guard, test
+exposed conductors, or spray liquid inside. Do not open covers unless the user
+is qualified and the manufacturer has supplied the exact procedure.
 
-| Symptom | Safe checks | Stop and request service when |
+## 2. Immediate stop decision
+
+```mermaid
+flowchart TD
+  A[Fault observed] --> B{Smoke, burning smell, heat, liquid, damaged cable, shock or breaker trip?}
+  B -->|Yes| R[Disconnect if safe; keep out of use; qualified service]
+  B -->|No| C{Mechanism moving or motor humming?}
+  C -->|Yes| D[Stop cycle; disconnect power; do not reach inside]
+  C -->|No| E[Record state before touching anything]
+  D --> E
+  E --> F[Perform green-level external checks only]
+  F --> G{One permitted reset fixes the full cycle?}
+  G -->|No or fault returns| H[Stop and send evidence to service]
+  G -->|Yes| I[Monitor; record recurrence]
+```
+
+## 3. Evidence first
+
+Record the following before power cycling, because reset may erase useful
+information:
+
+| Field | Example |
+|---|---|
+| Manufacturer/model | exact nameplate wording |
+| Serial | share privately with service, not in a public issue |
+| Country/power rating | `230 V, 50 Hz` as printed on nameplate |
+| Mode and expected wall | selected game and tiles per side |
+| Symptom | no power / jam / wrong tile / short wall / noise / shutdown |
+| Side/location | service orientation plus flashing indicator |
+| Fault display | complete code, punctuation, and flashing pattern |
+| Trigger | after move, cleaning, spill, new tiles, power event, or normal use |
+| Evidence | nameplate photo, full-cycle video, close photo after power is off |
+
+## 4. Symptom-to-action table
+
+| Symptom | Safe external checks | Likely fault families, not a diagnosis | Stop condition |
+|---|---|---|---|
+| No power/display | known-good outlet, plug seated, external switch sequence, nameplate voltage | supply, fuse, switch, wiring, power board | damaged cable, heat, trip, still dead |
+| Center panel does not rise/lower | remove only loose object on top; confirm level and no overload | obstruction, limit sensing, lift motor/linkage | hum, skew, repeated stop |
+| Powers on but will not shuffle | correct mode, panel closed, approved complete tile set | interlock, control state, motor, sensor | one reset fails or code returns |
+| Tiles jam | power off; remove only plainly reachable loose tile/debris | wrong/deformed tile, guide, belt, roller, sensor | access requires cover/tool; jam repeats |
+| Wrong sorting | isolate mixed, wet, dirty, chipped, or wrong-spec tiles | magnetic mismatch, sorter/sensor/route | correct tiles still misroute |
+| One side short | count delivered tiles; record side; check level | side conveyor, bridge, sensor, route obstruction | repeats on same side |
+| All sides short/wrong | verify selected mode and total approved set | mode/configuration, missing tiles, central handling | count correct but cycle wrong |
+| Noise/vibration | stop; remove external loose objects; verify stable floor | foreign object, belt, bearing, gear, motor | grinding, increasing noise, heat |
+| Stops after warming | verify ventilation and rating; allow safe cool-down | overload, thermal protection, power/control fault | repeats or casing abnormal hot |
+| Code appears | photograph code and flashing position; use model manual | code meaning is model-specific | code returns after one permitted reset |
+
+## 5. Quantitative checks
+
+### Tile reconciliation
+
+Use the model/mode manual for the expected tile count.
+
+```text
+accounted_tiles = delivered_tiles
+                + visible_discarded_or_reserved_tiles
+                + safely_removed_loose_tiles
+
+unaccounted_tiles = expected_mode_tiles - accounted_tiles
+```
+
+Do not infer an internal jam from a negative or positive result until mixed tile
+sets, spare tiles, Flowers/Jokers, and the selected mode have been checked.
+
+For equal walls:
+
+```text
+expected_tiles_per_side = wall_tiles_total / number_of_sides
+side_shortage = expected_tiles_per_side - actual_tiles_on_that_side
+```
+
+### Recurrence record
+
+Do not repeatedly cycle a faulty table merely to produce statistics. For
+ordinary use before the stop decision:
+
+```text
+observed_recurrence_rate = recorded_fault_cycles / recorded_total_cycles
+```
+
+One repeated jam after a permitted reset is enough to stop; a low percentage
+does not make a red-level event safe.
+
+### Supply comparison
+
+Only a competent person using an approved outlet tester should measure supply;
+never probe inside the table.
+
+```text
+voltage_deviation_percent
+  = abs(measured_outlet_voltage - nameplate_nominal_voltage)
+    / nameplate_nominal_voltage x 100
+```
+
+Acceptable range comes from the model manual and local electrical standard, not
+from a generic percentage in this guide.
+
+## 6. Diagnostic branches
+
+### Same side fails repeatedly
+
+```mermaid
+flowchart TD
+  A[Same side incomplete/misroutes] --> B[Confirm service-side orientation]
+  B --> C[Count wall and total tiles]
+  C --> D{Visible loose object with power disconnected?}
+  D -->|Yes, no disassembly| E[Remove it and document]
+  D -->|No| F[Do not open table]
+  E --> G[One permitted reset]
+  G --> H{Same side fails again?}
+  H -->|Yes| I[Side route/sensor/mechanism: service]
+  H -->|No| J[Monitor and keep record]
+  F --> I
+```
+
+### Tiles are rejected or mis-sorted
+
+1. Compare every tile with the approved set: dimensions, thickness, weight,
+   surface, magnet configuration, and markings.
+2. Remove mixed, chipped, swollen, sticky, wet, or deformed tiles.
+3. Count the complete set for the selected mode.
+4. Clean only as the tile/table manufacturer permits and dry fully.
+5. If known-correct tiles fail on the same route, stop and report the route.
+
+## 7. Cleaning and preventive maintenance
+
+| Interval | User-level action | Do not do |
 |---|---|---|
-| No power or no display | Test the outlet with another device; reseat the power connection; check the product nameplate and the manual's switch procedure. | The cord, plug, fuse, socket, switch, or internal power supply may be damaged. |
-| Center panel or tabletop will not move | Disconnect power; remove only visible objects; confirm the table is level and the panel is not overloaded. | The panel remains stuck, a motor hums without movement, or a limit switch may be involved. |
-| Table powers on but does not shuffle | Confirm the correct game mode and approved tile set; close the panel as described by the manual; perform one normal reset. | The cycle stops again, the motor only hums, or a fault code returns. |
-| Tiles jam or stop in the path | Disconnect power; remove only tiles or debris that are plainly reachable without disassembly; keep the table upright. | The obstruction is inside the mechanism, the belt or guide is damaged, or the jam repeats. |
-| Tiles are not sorted or delivered correctly | Use the model-approved tiles; separate wet, dirty, damaged, mixed, or visibly deformed tiles; clean accessible tile surfaces. | The same side repeatedly fails, a sorter or sensor is suspected, or correct tiles still misroute. |
-| One side receives an incomplete stack | Record the affected side; check for a visible obstruction and confirm the table is level. | The side-specific fault persists after one reset or the mechanism needs adjustment. |
-| Control panel, dice, or indicator does not respond | Confirm the table is in the reset state required by the manual; power-cycle once after disconnecting safely. | Buttons remain unresponsive, indicators conflict with the display, or a control board may be involved. |
-| Unusual noise or vibration | Stop the cycle; check for loose external objects, unstable placement, and visible debris. | Noise continues after the visible check, increases under load, or comes from a motor, belt, bearing, or gear. |
-| Table stops during a cycle or shuts down | Let the table cool; verify ventilation, correct voltage, and the model's operating limits. | Shutdown repeats, the casing is unusually hot, or a breaker or protection device trips. |
-| Fault code appears | Record the complete code, flashing position, model, and serial number; follow the manual's safe reset procedure once. | The code returns, several codes appear, or the procedure would require opening the machine. |
+| After use | remove external foreign objects; dry soft wipe; keep drinks away | spray cleaner into openings |
+| Weekly/high use | inspect tiles, cloth, cable, plug, ventilation, table stability | use damaged tiles or tape near paths |
+| Manufacturer interval | perform only named user procedures | invent a lubrication schedule |
+| After move/spill/power event | inspect externally and follow model recommissioning steps | immediately cycle a wet or damaged table |
 
-## A safe diagnostic sequence
+If a manual specifies both time and operating cycles, use the earlier due point:
 
-1. Identify the exact model, control-panel version, and power rating from the
-   nameplate.
-2. Describe the symptom precisely: no power, no movement, jam, wrong sorting,
-   incomplete delivery, noise, or shutdown.
-3. Stop the cycle and disconnect power before touching the table.
-4. Check only the outside, accessible openings, approved tile set, power
-   connection, table stability, and visible debris.
-5. Reconnect and perform one normal reset only if the manual permits it.
-6. Record the result and any code or flashing indicator.
-7. Stop troubleshooting when the fault returns or when internal access would be
-   required.
+```text
+next_maintenance = earlier_of(calendar_due_date, cycle_count_due)
+```
 
-Repeated resets can hide an intermittent sensor, motor, belt, gear, or control
-problem and can turn a small obstruction into a larger failure.
+Apply cleaner to a cloth, not directly to the table. Do not use abrasive,
+solvent, oil, grease, or adhesive unless the exact manual names the product and
+location. Wrong lubricant can contaminate sensors, belts, rollers, and tiles.
 
-## Tile and cleaning checks
+## 8. Service handoff template
 
-Automatic tables are calibrated for a particular tile size, thickness, weight,
-surface, and magnetic or non-magnetic configuration. Do not mix tile sets from
-different machines. Keep tiles dry and free of adhesive residue, grit, and
-damaged edges. Follow the manufacturer's cleaning method; use a soft cloth or
-brush on accessible surfaces and never spray cleaner into the mechanism.
+```text
+Model:
+Serial (private message only):
+Country and nameplate power:
+Selected mode:
+Approved tile set / total count:
+Exact symptom:
+Side or position indicator:
+Complete fault code:
+First occurrence and trigger:
+External checks completed:
+Result of the one permitted reset:
+Photos/video attached:
+```
 
-Do not lubricate a moving part unless the model manual explicitly identifies the
-part, lubricant, and procedure. Incorrect lubricant can contaminate sensors,
-belts, rollers, or tiles.
+## 9. Model-specific information
 
-## Information to send to a technician
-
-Include:
-
-- Manufacturer and exact model
-- Serial number and purchase date, if available
-- Country and power configuration
-- The symptom and when it began
-- The selected game mode
-- Tile set used and whether it is the approved set
-- Fault code and flashing position
-- A clear photo of the nameplate and a short video of the symptom
-- Any recent move, cleaning, spill, jam, power event, or repair
-
-Never send payment data, passwords, or unrelated customer information in a
-public issue or forum post.
-
-## Manufacturer-specific resources
-
-Generic troubleshooting cannot replace model-specific instructions. Owners of
-INEAN PLAY products can use the [INEAN PLAY support repository](https://github.com/ineanplay/automatic-okey-table-support)
-for searchable manuals, safety information, fault-code references, and
-maintenance guidance. The [INEAN PLAY fault-code guide](https://github.com/ineanplay/automatic-okey-table-support/blob/main/docs/fault-codes.md)
-and [safety guide](https://github.com/ineanplay/automatic-okey-table-support/blob/main/docs/safety.md)
-are examples of model-specific references; other brands should use their own
-manuals and service channels.
-
-For product-specific questions, INEAN PLAY can be contacted through
-[ineanplay.com](https://ineanplay.com/),
-[WhatsApp](https://wa.me/8617378390199), or
-[service@ineanplay.com](mailto:service@ineanplay.com). This contact is included
-as a transparent manufacturer resource and does not change the brand-neutral
-scope of this guide.
-
-Official social links: [Facebook](https://www.facebook.com/profile.php?id=61585370578775),
-[Instagram](https://www.instagram.com/ineanplay/),
-[TikTok](https://www.tiktok.com/@ineanplay), and
-[YouTube](https://www.youtube.com/@ineanplay).
+A generic guide must never decode a model's fault code by analogy. Use the
+manufacturer's exact manual. INEAN PLAY owners can use the
+[official support repository](https://github.com/ineanplay/automatic-okey-table-support)
+and its [fault-code reference](https://github.com/ineanplay/automatic-okey-table-support/blob/main/docs/fault-codes.md).
+Other brands should use their own service documentation.
 
 ## Sources
 
-- [Bespoke Mahjong: Troubleshooting](https://www.bespokemahjong.com/pages/troubleshooting)
-- [INEAN PLAY Automatic OKEY Table Support](https://github.com/ineanplay/automatic-okey-table-support)
-- [INEAN PLAY Safety Information](https://github.com/ineanplay/automatic-okey-table-support/blob/main/docs/safety.md)
-- [INEAN PLAY Fault-Code Reference](https://github.com/ineanplay/automatic-okey-table-support/blob/main/docs/fault-codes.md)
+- [Bespoke Mahjong: troubleshooting](https://www.bespokemahjong.com/pages/troubleshooting)
+- [INEAN PLAY automatic table support](https://github.com/ineanplay/automatic-okey-table-support)
+- [INEAN PLAY safety information](https://github.com/ineanplay/automatic-okey-table-support/blob/main/docs/safety.md)
+
+## Contact
+
+- [ineanplay.com](https://ineanplay.com/)
+- [WhatsApp: +86 173 7839 0199](https://wa.me/8617378390199)
+- [service@ineanplay.com](mailto:service@ineanplay.com)
