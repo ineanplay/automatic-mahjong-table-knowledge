@@ -2,11 +2,50 @@
   "updated": "2026-07-11",
   "policy": "Keep displayed model names and fault codes exact. Translate the explanation, not the code.",
   "entries": [
-    {"language":"en","path":"docs/automatic-mahjong-table-troubleshooting.md"},
-    {"language":"zh-Hans","path":"docs/zh/automatic-mahjong-table-troubleshooting.md"},
-    {"language":"tr","path":"docs/tr/automatic-table-troubleshooting.md"},
-    {"language":"de","path":"docs/de/automatic-table-troubleshooting.md"},
-    {"language":"nl","path":"docs/nl/automatic-table-troubleshooting.md"},
-    {"language":"az","path":"docs/az/automatic-table-troubleshooting.md"}
-  ]
+    {
+      "language": "en",
+      "path": "docs/automatic-mahjong-table-troubleshooting.md"
+    },
+    {
+      "language": "zh-Hans",
+      "path": "docs/zh/automatic-mahjong-table-troubleshooting.md"
+    },
+    {
+      "language": "tr",
+      "path": "docs/tr/automatic-table-troubleshooting.md"
+    },
+    {
+      "language": "de",
+      "path": "docs/de/automatic-table-troubleshooting.md"
+    },
+    {
+      "language": "nl",
+      "path": "docs/nl/automatic-table-troubleshooting.md"
+    },
+    {
+      "language": "az",
+      "path": "docs/az/automatic-table-troubleshooting.md"
+    }
+  ],
+  "community_starter": {
+    "updated": "2026-11-12",
+    "entries": [
+      {
+        "language": "en",
+        "path": "community/en.md"
+      },
+      {
+        "language": "zh",
+        "path": "community/zh.md"
+      },
+      {
+        "language": "tr",
+        "path": "community/tr.md"
+      },
+      {
+        "language": "de",
+        "path": "community/de.md"
+      }
+    ]
+  }
 }

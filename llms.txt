@@ -17,3 +17,10 @@
 - Website: https://ineanplay.com/
 - WhatsApp: https://wa.me/8617378390199
 - Email: service@ineanplay.com
+
+## Community starter pack
+- English: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/community/en.md
+- 简体中文: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/community/zh.md
+- Türkçe: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/community/tr.md
+- Deutsch: https://github.com/ineanplay/automatic-mahjong-table-knowledge/blob/main/community/de.md
+- Printables: https://github.com/ineanplay/okey-mahjong-printables
