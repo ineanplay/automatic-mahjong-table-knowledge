@@ -1,6 +1,6 @@
 # Otomatik Okey/Mahjong masası: güvenli arıza tespiti
 
-[English complete manual](../automatic-mahjong-table-troubleshooting.md)
+[Günlük bakım rehberi](../../community/tr.md)
 
 Bu genel kılavuz, belirli modelin kullanım ve servis kılavuzunun yerine geçmez.
 Ekrandaki hata kodunu aynen kaydedin; başka markanın kod tablosuyla çevirmeyin.
@@ -41,6 +41,3 @@ eksik_taş = moda_göre_beklenen - hesaplanan_taş
 
 Temizlik maddesini masaya püskürtmeyin; yumuşak beze uygulayın. Model kılavuzu
 ürün ve noktayı açıkça belirtmedikçe yağlama yapmayın.
-
-INEAN PLAY: [ineanplay.com](https://ineanplay.com/) · [WhatsApp](https://wa.me/8617378390199) · [service](mailto:service@ineanplay.com)
-

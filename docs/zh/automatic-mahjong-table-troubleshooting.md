@@ -127,7 +127,3 @@ flowchart TD
 
 来源：[Bespoke Mahjong troubleshooting](https://www.bespokemahjong.com/pages/troubleshooting)、
 [INEAN PLAY support](https://github.com/ineanplay/automatic-okey-table-support)。
-
-INEAN PLAY：[ineanplay.com](https://ineanplay.com/) ·
-[WhatsApp](https://wa.me/8617378390199) ·
-[service@ineanplay.com](mailto:service@ineanplay.com)

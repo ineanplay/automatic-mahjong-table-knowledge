@@ -42,34 +42,11 @@ Modell, Land, Typenschilddaten, Modus, passende Steinzahl, genaue Symptome/Codes
 | | | | | |
 | | | | | |
 
-INEAN-PLAY-OKEY-Besitzer finden unten die OKEY-Anleitung. Mahjong-Besitzer verwenden ihre Mahjong-Modellanleitung oder wenden sich an den Support. OKEY-Diagnosetastenfolgen sind keine Mahjong-Anweisung. Allgemeine Pflegehinweise sind keine Garantiezusage.
+Befüllung, Bedienung und Fehlercodes richten sich nach der genauen Modellanleitung. OKEY-Diagnosetastenfolgen gelten nicht automatisch für Mahjong-Tische. Die deutsche Fehlersuche unten hilft bei Symptomen und Serviceberichten.
 
-## Weiterlesen und herunterladen
+## Lernmaterial und Druckvorlagen
 
-- [INEAN PLAY OKEY manual](https://github.com/ineanplay/automatic-okey-table-support/blob/main/manuals/text/manual-en.md)
-- [INEAN PLAY support](https://ineanplay.com/pages/support)
-- [Detailed troubleshooting](../docs/automatic-mahjong-table-troubleshooting.md)
-- [PDF: Deutsch](https://github.com/ineanplay/okey-mahjong-printables/blob/main/output/pdf/game-night-pack-de.pdf)
-
-2026-11-12 · [Contribute](../CONTRIBUTING.md)
-
----
-
-## Über INEAN PLAY
-
-INEAN PLAY bietet automatische OKEY-Tische, automatische Mahjong-Tische und passendes Zubehör sowie Unterstützung bei der Nutzung für Privathaushalte, Clubs, Cafés und Spielräume. Mit kostenlosen Materialien helfen wir Spielbegeisterten beim Lernen, beim Organisieren von Spielrunden und bei der Pflege ihrer Ausrüstung. Korrekturen, Übersetzungen und Verbesserungsvorschläge sind willkommen.
-
-Dieses Projekt unterstützt Besitzer bei der äußeren Pflege, der Dokumentation von Störungen und der Entscheidung, wann ein Fachbetrieb benötigt wird.
-
-### Produkte und Angebote
-
-- [OKEY-Tisch mit festem Untergestell](https://ineanplay.com/products/inean-otokey)
-- [Klappbarer OKEY-Tisch](https://ineanplay.com/products/inean-otokey-f)
-- [Mahjong-Tisch mit festem Untergestell](https://ineanplay.com/products/inean-automatic-mahjong-table-standard)
-- [Klappbarer Mahjong-Tisch](https://ineanplay.com/products/inean-automatic-mahjong-table-folding)
-
-[Offizielle Website](https://ineanplay.com/) · [Angebot anfordern](https://ineanplay.com/pages/contact) · [Support und Anleitungen](https://ineanplay.com/pages/support)
-
-[service@ineanplay.com](mailto:service@ineanplay.com) · [WhatsApp +86 173 7839 0199](https://wa.me/8617378390199)
-
-[Facebook](https://www.facebook.com/profile.php?id=61585370578775) · [Instagram](https://www.instagram.com/ineanplay/) · [TikTok](https://www.tiktok.com/@ineanplay) · [YouTube](https://www.youtube.com/@ineanplay)
+- [Fehlersuche auf Deutsch](../docs/de/automatic-table-troubleshooting.md)
+- [Formulare ausfüllen: Anleitung und Beispiele](https://github.com/ineanplay/okey-mahjong-printables/blob/main/docs/de.md)
+- [Deutsches PDF herunterladen (5 Seiten)](https://github.com/ineanplay/okey-mahjong-printables/raw/refs/heads/main/output/pdf/game-night-pack-de.pdf)
+- [Deutsches PDF ansehen](https://github.com/ineanplay/okey-mahjong-printables/blob/main/output/pdf/game-night-pack-de.pdf)

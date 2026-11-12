@@ -37,5 +37,3 @@ izahsız_daş = rejim_üzrə_gözlənən - hesablanan_daş
 
 Təmizləyicini masaya püskürtməyin; yumşaq parçaya tətbiq edin. Model təlimatı
 açıq göstərmədikcə yağlama, tənzimləmə və sökmə etməyin.
-
-INEAN PLAY: [ineanplay.com](https://ineanplay.com/) · [WhatsApp](https://wa.me/8617378390199) · [service](mailto:service@ineanplay.com)

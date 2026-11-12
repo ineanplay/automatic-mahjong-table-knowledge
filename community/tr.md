@@ -42,34 +42,11 @@ Model, ülke, etiket besleme bilgisi, seçili mod, uygun taş sayısı, tam beli
 | | | | | |
 | | | | | |
 
-INEAN PLAY OKEY sahipleri aşağıdaki OKEY kılavuzunu kullanabilir. Mahjong sahipleri kendi model kılavuzuna veya desteğe başvurmalıdır; OKEY tanılama tuşları mahjong talimatı değildir. Bu genel bakım bilgisi bir garanti taahhüdü değildir.
+Yükleme, kontrol ve hata kodları için tam model kılavuzu geçerlidir. OKEY tanılama tuşları mahjong masalarına doğrudan uygulanmaz. Aşağıdaki Türkçe arıza rehberi belirtileri ve servis kaydını düzenlemenize yardımcı olur.
 
-## Devam kaynakları ve indirme
+## Öğrenme kaynakları ve formlar
 
-- [INEAN PLAY OKEY manual](https://github.com/ineanplay/automatic-okey-table-support/blob/main/manuals/text/manual-en.md)
-- [INEAN PLAY support](https://ineanplay.com/pages/support)
-- [Detailed troubleshooting](../docs/automatic-mahjong-table-troubleshooting.md)
-- [PDF: Türkçe](https://github.com/ineanplay/okey-mahjong-printables/blob/main/output/pdf/game-night-pack-tr.pdf)
-
-2026-11-12 · [Contribute](../CONTRIBUTING.md)
-
----
-
-## INEAN PLAY hakkında
-
-INEAN PLAY; evler, kulüpler, kafeler ve oyun salonları için otomatik OKEY masaları, otomatik mahjong masaları ve uyumlu aksesuarlar sunar, ürün kullanımı konusunda destek sağlar. Oyunseverlerin kuralları öğrenmesine, oyun buluşmaları düzenlemesine ve ekipmanlarının bakımını yapmasına yardımcı olmak için ücretsiz topluluk kaynakları hazırlıyoruz. Düzeltme, çeviri ve geliştirme önerilerinizi bekliyoruz.
-
-Bu proje; kullanıcıların günlük dış yüzey bakımını yapmasına, arıza belirtilerini kaydetmesine ve ne zaman uzman servise başvurması gerektiğini anlamasına yardımcı olur.
-
-### Ürünler ve teklifler
-
-- [Standart OKEY masası](https://ineanplay.com/products/inean-otokey)
-- [Katlanır OKEY masası](https://ineanplay.com/products/inean-otokey-f)
-- [Standart mahjong masası](https://ineanplay.com/products/inean-automatic-mahjong-table-standard)
-- [Katlanır mahjong masası](https://ineanplay.com/products/inean-automatic-mahjong-table-folding)
-
-[Resmi web sitesi](https://ineanplay.com/) · [Teklif isteyin](https://ineanplay.com/pages/contact) · [Destek ve kılavuzlar](https://ineanplay.com/pages/support)
-
-[service@ineanplay.com](mailto:service@ineanplay.com) · [WhatsApp +86 173 7839 0199](https://wa.me/8617378390199)
-
-[Facebook](https://www.facebook.com/profile.php?id=61585370578775) · [Instagram](https://www.instagram.com/ineanplay/) · [TikTok](https://www.tiktok.com/@ineanplay) · [YouTube](https://www.youtube.com/@ineanplay)
+- [Türkçe arıza tespiti](../docs/tr/automatic-table-troubleshooting.md)
+- [Form doldurma ve tamamlanmış örnekler](https://github.com/ineanplay/okey-mahjong-printables/blob/main/docs/tr.md)
+- [Türkçe PDF indir (5 sayfa)](https://github.com/ineanplay/okey-mahjong-printables/raw/refs/heads/main/output/pdf/game-night-pack-tr.pdf)
+- [Türkçe PDF önizlemesi](https://github.com/ineanplay/okey-mahjong-printables/blob/main/output/pdf/game-night-pack-tr.pdf)

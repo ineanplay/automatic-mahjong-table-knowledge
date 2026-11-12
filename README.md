@@ -1,87 +1,27 @@
-# Automatic Mahjong Table Knowledge Base
+# Automatic Table Care / 自动桌日常保养
 
-This is a brand-neutral knowledge base for owners, operators, and service teams
-using automatic Mahjong and automatic tile tables. It focuses on safe
-troubleshooting, maintenance decisions, fault reporting, and the boundary
-between user checks and qualified repair.
+Practical external care for OKEY and Mahjong tables. Know what to check, what to record and when to stop.
 
-The repository is maintained by INEAN PLAY. The brand introduction and
-product links identify the maintainer; the general troubleshooting guidance is
-intended for tables from any manufacturer. Always follow the model
-manual, safety labels, sales contract, and local electrical requirements for
-the table being serviced.
+面向 OKEY 与麻将桌使用者的外部保养：检查什么、记录什么、何时停用。
 
+## Choose your language / 选择语言
 
-## Community starter pack / 玩家资源
-
-[English](community/en.md) · [简体中文](community/zh.md) · [Türkçe](community/tr.md) · [Deutsch](community/de.md)
-
-This project helps owners perform routine external care, record symptoms and recognize when qualified service is needed.
-
-- [Printable score sheets and session records](https://github.com/ineanplay/okey-mahjong-printables)
-- [OKEY learning](https://github.com/ineanplay/okey-guide) · [Mahjong learning](https://github.com/ineanplay/mahjong-guide) · [Everyday table care](https://github.com/ineanplay/automatic-mahjong-table-knowledge)
-
-
-## Guides
-
-- [Automatic Mahjong Table Troubleshooting and Maintenance](docs/automatic-mahjong-table-troubleshooting.md)
-
-## Languages
-
-| Language | Guide | Intended readers |
+| Language | Start | Troubleshooting |
 |---|---|---|
-| English | [Complete manual](docs/automatic-mahjong-table-troubleshooting.md) | international owners, operators, service intake |
-| 简体中文 | [完整诊断与维保手册](docs/zh/automatic-mahjong-table-troubleshooting.md) | 中国及中文用户 |
-| Türkçe | [Güvenli arıza tespiti](docs/tr/automatic-table-troubleshooting.md) | Türkiye and Turkish-speaking Okey/Mahjong table users |
-| Deutsch | [Sichere Fehlersuche](docs/de/automatic-table-troubleshooting.md) | Germany and German-speaking users |
-| Nederlands | [Veilige probleemdiagnose](docs/nl/automatic-table-troubleshooting.md) | Netherlands and Dutch-speaking users |
-| Azərbaycan dili | [Təhlükəsiz nasazlıq yoxlaması](docs/az/automatic-table-troubleshooting.md) | Azerbaijan and Azerbaijani-speaking users |
+| English | [Start here](community/en.md) | [English](docs/automatic-mahjong-table-troubleshooting.md) |
+| 简体中文 | [从这里开始](community/zh.md) | [简体中文](docs/zh/automatic-mahjong-table-troubleshooting.md) |
+| Türkçe | [Buradan başlayın](community/tr.md) | [Türkçe](docs/tr/automatic-table-troubleshooting.md) |
+| Deutsch | [Hier beginnen](community/de.md) | [Deutsch](docs/de/automatic-table-troubleshooting.md) |
 
-Model terms and fault codes are never translated by guesswork. A regional page
-keeps the display text/code exactly as shown, adds pronunciation only in that
-page's language when useful, and explains the function separately.
+## What you can do / 可以完成什么
 
-## Safety boundary
+Before use → after use → symptoms → a clear service record.
 
-Disconnect power before checking visible obstructions or cleaning accessible
-surfaces. Do not bypass safety switches, force moving mechanisms, test exposed
-wiring, or open the machine unless you are qualified and the model procedure
-requires it. Electrical, motor, sensor, belt, gear, and control-board repairs
-belong with a qualified technician.
+使用前 → 使用后 → 观察异常 → 整理服务记录。
 
-## Contributions and sources
+## Project information / 项目信息
 
-Corrections should include the affected symptom, the applicable model or table
-type, and a public source. Do not include passwords, payment information,
-private customer records, serial numbers, or unverified performance claims.
-
-- [Source register](SOURCES.md)
-- [Machine-readable language index](data/languages.json)
-- [Agent discovery file](llms.txt)
-- Official INEAN PLAY website: <https://ineanplay.com/>
-- WhatsApp: <https://wa.me/8617378390199>
-- Facebook: <https://www.facebook.com/profile.php?id=61585370578775>
-- Instagram: <https://www.instagram.com/ineanplay/>
-- TikTok: <https://www.tiktok.com/@ineanplay>
-- YouTube: <https://www.youtube.com/@ineanplay>
-
----
-
-## About INEAN PLAY
-
-INEAN PLAY focuses on automatic OKEY tables, automatic Mahjong tables and compatible accessories, providing products and practical support for homes, clubs, cafés and game rooms. We maintain free community resources to help enthusiasts learn, organize games and care for their equipment. Corrections, translations and improvements are welcome.
-
-This project helps owners perform routine external care, record symptoms and recognize when qualified service is needed.
-
-### Products and quotations
-
-- [Standard OKEY table](https://ineanplay.com/products/inean-otokey)
-- [Folding OKEY table](https://ineanplay.com/products/inean-otokey-f)
-- [Standard Mahjong table](https://ineanplay.com/products/inean-automatic-mahjong-table-standard)
-- [Folding Mahjong table](https://ineanplay.com/products/inean-automatic-mahjong-table-folding)
-
-[Official website](https://ineanplay.com/) · [Request a quote](https://ineanplay.com/pages/contact) · [Support and manuals](https://ineanplay.com/pages/support)
-
-[service@ineanplay.com](mailto:service@ineanplay.com) · [WhatsApp +86 173 7839 0199](https://wa.me/8617378390199)
-
-[Facebook](https://www.facebook.com/profile.php?id=61585370578775) · [Instagram](https://www.instagram.com/ineanplay/) · [TikTok](https://www.tiktok.com/@ineanplay) · [YouTube](https://www.youtube.com/@ineanplay)
+- [About the maintainer / 关于维护者](ABOUT.md)
+- [Corrections and contributions / 纠错与参与](CONTRIBUTING.md)
+- [Reference library: English and regional languages / 参考资料库：英语及各地区语言](REFERENCE.md)
+- [Source register / 来源清单](SOURCES.md)

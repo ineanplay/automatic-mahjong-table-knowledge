@@ -1,6 +1,6 @@
 # Automatischer Mahjong-/Okey-Tisch: sichere Fehlersuche
 
-[English complete manual](../automatic-mahjong-table-troubleshooting.md)
+[Anleitung zur Alltagspflege](../../community/de.md)
 
 Diese markenneutrale Anleitung ersetzt nicht das Handbuch des genauen Modells.
 Fehlercode und blinkende Positionsanzeige unverändert notieren; Codes anderer
@@ -37,6 +37,3 @@ nicht_erfasste_Steine = Sollzahl_des_Modus - erfasste_Steine
 
 Reiniger auf ein Tuch geben, nicht in Öffnungen sprühen. Ohne ausdrückliche
 Modellanweisung nicht schmieren, einstellen oder Abdeckungen öffnen.
-
-INEAN PLAY: [ineanplay.com](https://ineanplay.com/) · [WhatsApp](https://wa.me/8617378390199) · [service](mailto:service@ineanplay.com)
-

@@ -11,13 +11,3 @@ article does not copy any source as a brand-specific repair promise.
 Sources should be rechecked when a model, safety procedure, or public URL
 changes. A source link does not imply that its procedure applies to every
 automatic table.
-
-## Contact
-
-- Website: <https://ineanplay.com/>
-- WhatsApp: <https://wa.me/8617378390199>
-- Email: <service@ineanplay.com>
-- Facebook: <https://www.facebook.com/profile.php?id=61585370578775>
-- Instagram: <https://www.instagram.com/ineanplay/>
-- TikTok: <https://www.tiktok.com/@ineanplay>
-- YouTube: <https://www.youtube.com/@ineanplay>

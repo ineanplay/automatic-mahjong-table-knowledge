@@ -42,34 +42,11 @@
 | | | | | |
 | | | | | |
 
-INEAN PLAY OKEY 用户可查下方 OKEY 说明书。麻将桌用户应使用麻将桌对应型号说明书或联系支持；OKEY 诊断按键程序不能当作麻将桌操作。本页日常保养建议不构成保修承诺。
+装牌、控制及故障代码以对应型号说明为准，OKEY诊断按键程序不能直接套用于麻将桌。本页讲解外部日常保养；下方中文排查指南可用于整理现象和服务记录。
 
-## 继续阅读与下载
+## 学习资料与打印表
 
-- [INEAN PLAY OKEY manual](https://github.com/ineanplay/automatic-okey-table-support/blob/main/manuals/text/manual-en.md)
-- [INEAN PLAY support](https://ineanplay.com/pages/support)
-- [Detailed troubleshooting](../docs/automatic-mahjong-table-troubleshooting.md)
-- [PDF: 简体中文](https://github.com/ineanplay/okey-mahjong-printables/blob/main/output/pdf/game-night-pack-zh.pdf)
-
-2026-11-12 · [Contribute](../CONTRIBUTING.md)
-
----
-
-## 关于 INEAN PLAY
-
-INEAN PLAY 专注于自动 OKEY 桌、自动麻将桌及相关配件，为家庭、俱乐部、咖啡馆和游戏室提供产品与使用支持。我们维护这些免费社区资源，帮助爱好者学习玩法、组织牌局和做好日常保养，欢迎大家提出纠错、翻译和改进建议。
-
-本项目帮助使用者做好日常外部保养、记录故障现象，并判断何时需要专业服务。
-
-### 产品与询价
-
-- [标准款自动 OKEY 桌](https://ineanplay.com/products/inean-otokey)
-- [折叠款自动 OKEY 桌](https://ineanplay.com/products/inean-otokey-f)
-- [标准款自动麻将桌](https://ineanplay.com/products/inean-automatic-mahjong-table-standard)
-- [折叠款自动麻将桌](https://ineanplay.com/products/inean-automatic-mahjong-table-folding)
-
-[官方网站](https://ineanplay.com/) · [产品询价](https://ineanplay.com/pages/contact) · [支持与说明书](https://ineanplay.com/pages/support)
-
-[service@ineanplay.com](mailto:service@ineanplay.com) · [WhatsApp +86 173 7839 0199](https://wa.me/8617378390199)
-
-[Facebook](https://www.facebook.com/profile.php?id=61585370578775) · [Instagram](https://www.instagram.com/ineanplay/) · [TikTok](https://www.tiktok.com/@ineanplay) · [YouTube](https://www.youtube.com/@ineanplay)
+- [中文故障排查指南](../docs/zh/automatic-mahjong-table-troubleshooting.md)
+- [填表方法与已填写示例](https://github.com/ineanplay/okey-mahjong-printables/blob/main/docs/zh.md)
+- [下载中文 PDF（5页）](https://github.com/ineanplay/okey-mahjong-printables/raw/refs/heads/main/output/pdf/game-night-pack-zh.pdf)
+- [预览中文 PDF](https://github.com/ineanplay/okey-mahjong-printables/blob/main/output/pdf/game-night-pack-zh.pdf)

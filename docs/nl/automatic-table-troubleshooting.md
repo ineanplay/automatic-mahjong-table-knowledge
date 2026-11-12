@@ -37,6 +37,3 @@ onverklaarde_stenen = verwachte_modus_totaal - getelde_stenen
 
 Breng reiniger op een doek aan, nooit rechtstreeks in openingen. Niet smeren,
 afstellen of openen zonder een modelspecifieke instructie.
-
-INEAN PLAY: [ineanplay.com](https://ineanplay.com/) · [WhatsApp](https://wa.me/8617378390199) · [service](mailto:service@ineanplay.com)
-

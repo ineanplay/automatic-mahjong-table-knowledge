@@ -14,23 +14,8 @@ For layout defects in printables, specify language, page, paper size and print s
 
 `community/` 下的新增原创指南采用 CC BY 4.0。分享或改编时注明 INEAN PLAY、原文和许可链接，并说明修改。第三方资料及商标仍适用其自身条款。
 
----
+## Reader experience / 阅读体验
 
-## About INEAN PLAY
+Keep product promotion, quotations and contact/social blocks on ABOUT.md. Reader-facing tutorials and PDFs contain no advertising. Primary learning links and download instructions must match the current language. Label external sources with their language and keep them outside the primary learning/download area.
 
-INEAN PLAY focuses on automatic OKEY tables, automatic Mahjong tables and compatible accessories, providing products and practical support for homes, clubs, cafés and game rooms. We maintain free community resources to help enthusiasts learn, organize games and care for their equipment. Corrections, translations and improvements are welcome.
-
-This project helps owners perform routine external care, record symptoms and recognize when qualified service is needed.
-
-### Products and quotations
-
-- [Standard OKEY table](https://ineanplay.com/products/inean-otokey)
-- [Folding OKEY table](https://ineanplay.com/products/inean-otokey-f)
-- [Standard Mahjong table](https://ineanplay.com/products/inean-automatic-mahjong-table-standard)
-- [Folding Mahjong table](https://ineanplay.com/products/inean-automatic-mahjong-table-folding)
-
-[Official website](https://ineanplay.com/) · [Request a quote](https://ineanplay.com/pages/contact) · [Support and manuals](https://ineanplay.com/pages/support)
-
-[service@ineanplay.com](mailto:service@ineanplay.com) · [WhatsApp +86 173 7839 0199](https://wa.me/8617378390199)
-
-[Facebook](https://www.facebook.com/profile.php?id=61585370578775) · [Instagram](https://www.instagram.com/ineanplay/) · [TikTok](https://www.tiktok.com/@ineanplay) · [YouTube](https://www.youtube.com/@ineanplay)
+品牌介绍、产品、询价与社媒信息放在 ABOUT.md。教程和PDF不放广告；主要学习与下载入口保持当前语言；外部来源标明语言，单独列出。

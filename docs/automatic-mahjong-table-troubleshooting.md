@@ -193,9 +193,3 @@ Other brands should use their own service documentation.
 - [Bespoke Mahjong: troubleshooting](https://www.bespokemahjong.com/pages/troubleshooting)
 - [INEAN PLAY automatic table support](https://github.com/ineanplay/automatic-okey-table-support)
 - [INEAN PLAY safety information](https://github.com/ineanplay/automatic-okey-table-support/blob/main/docs/safety.md)
-
-## Contact
-
-- [ineanplay.com](https://ineanplay.com/)
-- [WhatsApp: +86 173 7839 0199](https://wa.me/8617378390199)
-- [service@ineanplay.com](mailto:service@ineanplay.com)
